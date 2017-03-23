@@ -1,0 +1,6 @@
+
+# This is just an example for a rule for static pages.
+# This typically needs to go at the very bottom of your .htaccess file
+
+# CMS Pages
+RewriteRule ^([a-zA-Z0-9]+)$			page.php?slug=$1 		[L,QSA]

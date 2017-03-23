@@ -1,0 +1,10 @@
+{include file='inc_head.txt'}
+
+<div class="container">
+	<h1>{$object.title|escape}</h1>
+
+	{$object.content}
+
+</div>
+
+{include file='inc_foot.txt'}
